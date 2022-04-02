@@ -1,0 +1,54 @@
+.key {
+  cursor: pointer;
+  /* background-color: teal; */
+  background-color: hsl(202, 21%, 36%);
+  color: white;
+  height: 25px;
+  padding: 10px 20px;
+  margin: 2px auto;
+  box-shadow: 1px 1px 1px hsl(202, 21%, 36%);
+  border-radius: 2px;
+  transition: all 0.1s ease;
+  grid-column: span 6;
+}
+.key:hover {
+  filter: hue-rotate(5deg);
+}
+.key:active {
+  transform: translate(0.5px, 0.5px);
+}
+.key#caps {
+  grid-row-start: 3;
+  padding: 10px 20px;
+  grid-column: span 12;
+}
+.key#shift {
+  grid-row-start: 4;
+  padding: 10px 55px;
+  grid-column: span 15;
+}
+.key#rshift {
+  grid-row-start: 4;
+  padding: 10px 55px;
+  grid-column-start: 59;
+}
+.key#space {
+  grid-row-start: 5;
+  padding: 10px 125px;
+  grid-column: span 70;
+}
+.key#tab {
+  grid-row-start: 2;
+  padding: 10px 20px;
+  grid-column: span 7;
+}
+.key#backspace {
+  grid-row-start: 2;
+  padding: 10px 20px;
+  grid-column-start: 68;
+}
+.key#delete {
+  grid-row-start: 1;
+  padding: 10px 20px;
+  grid-column-start: 67;
+}

@@ -1,0 +1,8 @@
+.keyboard {
+  display: grid;
+  grid-template-columns: repeat(67, 7px);
+  row-gap: 2px;
+  column-gap: 3px;
+  width: fit-content;
+  margin: auto;
+}
