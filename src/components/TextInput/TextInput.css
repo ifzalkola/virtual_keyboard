@@ -2,10 +2,14 @@
   padding: 5px;
   display: flex;
   justify-content: flex-start;
+  align-items: flex-start;
   width: 800px;
   height: 300px;
   margin: auto;
   margin-bottom: 10px;
   border: 1px solid rgba(97, 97, 97, 0.25);
   box-shadow: 1px 1px 4px 0px hsl(202, 21%, 36%);
+}
+#text-input:focus {
+  outline: none;
 }
